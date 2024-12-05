@@ -7,8 +7,8 @@ function Rickyindividual() {
   fetch(`https://rickandmortyapi.com/api/character/${id}`)
   .then((response)=>response.json())
   .then((response)=>SetIndividual(response))
-       setIndividual(response)
-       setI
+       
+       
 
 
   return (
